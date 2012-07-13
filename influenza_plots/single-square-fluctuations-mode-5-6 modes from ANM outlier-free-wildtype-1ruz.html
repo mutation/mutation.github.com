@@ -3266,7 +3266,7 @@
 });
       wrapper = new google.visualization.ChartWrapper({
         dataTable: data,
-        options: {"pointSize": 2, "hAxis": {"maxValue": 325, "minValue": 1}, "interpolateNulls": true, "title": "Square fluctuations for Mode 5 - 6 modes from ANM outlier-free-wildtype-1ruz", "height": 900, "width": 1440},
+        options: {"pointSize": 2, "hAxis": {"viewWindow": {"max": 325, "min": 1}, "viewWindowMode": "explicit", "maxValue": 325, "minValue": 1}, "interpolateNulls": true, "title": "Square fluctuations for Mode 5 - 6 modes from ANM outlier-free-wildtype-1ruz", "height": 900, "width": 1440, "vAxis": {"viewWindow": {"max": 0.020771818334706628, "min": 0}, "viewWindowMode": "explicit", "maxValue": 0.020771818334706628, "minValue": 0}},
         containerId: 'visualization',
         chartType: 'LineChart'
       });

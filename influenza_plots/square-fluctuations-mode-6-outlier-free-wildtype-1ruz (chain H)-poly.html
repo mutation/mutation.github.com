@@ -4229,7 +4229,7 @@
 });
       wrapper = new google.visualization.ChartWrapper({
         dataTable: data,
-        options: {"pointSize": 2, "hAxis": {"maxValue": 324, "minValue": 1}, "interpolateNulls": true, "title": "Square fluctuations for Mode 6", "height": 900, "width": 1440},
+        options: {"pointSize": 2, "hAxis": {"viewWindow": {"max": 324, "min": 1}, "viewWindowMode": "explicit", "maxValue": 324, "minValue": 1}, "interpolateNulls": true, "title": "Square fluctuations for Mode 6", "height": 900, "width": 1440, "vAxis": {"viewWindow": {"max": 0.008457799986084244, "min": 0}, "viewWindowMode": "explicit", "maxValue": 0.008457799986084244, "minValue": 0}},
         containerId: 'visualization',
         chartType: 'LineChart'
       });

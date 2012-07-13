@@ -3256,7 +3256,7 @@
 });
       wrapper = new google.visualization.ChartWrapper({
         dataTable: data,
-        options: {"pointSize": 2, "interpolateNulls": true, "title": "Residue based dot products for Mode 4", "height": 900, "width": 1440, "vAxis": {"maxValue": 1, "minValue": -1}},
+        options: {"pointSize": 2, "interpolateNulls": true, "title": "Residue based dot products for Mode 4", "height": 900, "width": 1440, "vAxis": {"viewWindow": {"max": 1, "min": -1}, "viewWindowMode": "explicit", "maxValue": 1, "minValue": -1}},
         containerId: 'visualization',
         chartType: 'LineChart'
       });
