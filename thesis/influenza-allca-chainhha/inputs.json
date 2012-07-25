@@ -1,0 +1,34 @@
+{
+    "groups": [
+        {
+            "structures": [
+                {
+                    "comparison_string": "chain H", 
+                    "code": "2WRG", 
+                    "parse_select": "protein and ca"
+                }
+            ], 
+            "name": "poly", 
+            "auto-align": true
+        }, 
+        {
+            "structures": [
+                {
+                    "comparison_string": "chain A", 
+                    "code": "3LZG", 
+                    "parse_select": "protein and ca and (chain A or chain B or chain C or chain D or chain E or chain F)"
+                }
+            ], 
+            "name": "disease", 
+            "auto-align": true
+        }
+    ], 
+    "reference": {
+        "comparison_string": "chain H", 
+        "code": "1RUZ", 
+        "parse_select": "protein and ca", 
+        "name": "wildtype", 
+        "auto_align": true
+    }, 
+    "label": "influenza-allca-chainhha"
+}
