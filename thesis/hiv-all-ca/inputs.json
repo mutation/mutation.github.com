@@ -1,0 +1,31 @@
+{
+    "groups": [
+        {
+            "structures": [
+                {
+                    "comparison_string": "ca", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-singlemutant.pdb", 
+                    "parse_select": "not water"
+                }, 
+                {
+                    "comparison_string": "ca", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-doublemutant.pdb", 
+                    "parse_select": "not water"
+                }, 
+                {
+                    "comparison_string": "ca", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-coevolved.pdb", 
+                    "parse_select": "not water"
+                }
+            ], 
+            "name": "group"
+        }
+    ], 
+    "reference": {
+        "comparison_string": "ca", 
+        "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-wildtype.pdb", 
+        "parse_select": "not water", 
+        "name": "wildtype"
+    }, 
+    "label": "hiv-all-ca"
+}

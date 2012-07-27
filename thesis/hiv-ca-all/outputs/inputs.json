@@ -1,0 +1,32 @@
+{
+    "anm_cutoff": 18.0, 
+    "reference": {
+        "comparison_string": "all", 
+        "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-wildtype.pdb", 
+        "parse_select": "not water and ca", 
+        "name": "wildtype"
+    }, 
+    "groups": [
+        {
+            "structures": [
+                {
+                    "comparison_string": "all", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-singlemutant.pdb", 
+                    "parse_select": "not water and ca"
+                }, 
+                {
+                    "comparison_string": "all", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-doublemutant.pdb", 
+                    "parse_select": "not water and ca"
+                }, 
+                {
+                    "comparison_string": "all", 
+                    "code": "/home/gokcen/Thesis-Code/Thesis/sample_cases/hiv-coevolved.pdb", 
+                    "parse_select": "not water and ca"
+                }
+            ], 
+            "name": "group"
+        }
+    ], 
+    "label": "hiv-ca-all"
+}

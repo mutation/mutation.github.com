@@ -1,0 +1,34 @@
+{
+    "groups": [
+        {
+            "structures": [
+                {
+                    "comparison_string": "chain B", 
+                    "code": "3kvf", 
+                    "parse_select": "protein"
+                }
+            ], 
+            "name": "disease", 
+            "auto-align": true
+        }, 
+        {
+            "structures": [
+                {
+                    "comparison_string": "chain B", 
+                    "code": "3ifw", 
+                    "parse_select": "protein"
+                }
+            ], 
+            "name": "poly", 
+            "auto-align": true
+        }
+    ], 
+    "reference": {
+        "comparison_string": "chain B", 
+        "code": "3kw5", 
+        "parse_select": "protein", 
+        "name": "wildtype", 
+        "auto_align": true
+    }, 
+    "label": "uchl1-all-chainb"
+}
